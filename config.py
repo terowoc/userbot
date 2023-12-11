@@ -7,5 +7,7 @@ account = dict(
 bio = [
     'Back End Developer.',
     'azimboev.uz',
-    'Бэкэнд разработчик из Ташкента. azimboev.uz',
+    'Бэкэнд разработчик из Ташкента.',
+    'Жаст ду ит!',
+    'PHP & Laravel - ♾❤️'
 ]
