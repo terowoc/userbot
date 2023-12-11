@@ -1,0 +1,5 @@
+account = dict(
+    api_id = 28967306,
+    api_hash = 'd345794982b1dafa4471445b7072e7af',
+    session_string = 'AgAhMYcd5aQYa_HbWTpatYm5f6qs5xkIuO1Lu7eDPRu0-It0CWHMggugcMplULN6_bKUrfub4CelEPW67GFphc0xiFmuMuRo7CnqTBm2R4DO4j6L0PufPQJuJw4EEjHNotq-Bv0WcqFWm9KG2lcRdJEch8j1wDJuSZUfLuKilRqyySPaRyIa5bsx5JpqJuJ3sdz4GMFXH57epRI3HmvttPzZuY3DJjIOusHMZ7t2IZnpKkpY5Iaok5v8KB_Ef8TLBsTl7HYAEEPtiaAG7zxfCWXW4lMDNVLchT01_-Y6d57od5ruh38FyVG5gRaznlslLb92dSVDSgRvHpHIkO2z0QfGAAAAAZrmK_sA',
+)
