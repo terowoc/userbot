@@ -1,6 +1,7 @@
 import config
-from pyrogram import Client
 import random
+import asyncio
+from pyrogram import Client
 
 async def main():
         try:
