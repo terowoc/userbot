@@ -1,4 +1,3 @@
-config
-app.log
+config.py
 __pycache__
 account.session

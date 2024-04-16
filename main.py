@@ -1,19 +1,15 @@
 import config
 import random
 import asyncio
-import logging
-from pyrogram import Client
+from pyrogram import Client, filters
 
-logging.basicConfig(filename='app.log', filemode='w', format='%(levelname)s - %(message)s | %(asctime)s', datefmt='%d-%b-%y %H:%M:%S')
+app = Client("account", api_id=config.account['api_id'], api_hash=config.account['api_hash'], session_string=config.account['session_string'])
 
-async def main():
-    try:
-        async with Client("account", api_id=config.account['api_id'], api_hash=config.account['api_hash'], session_string=config.account['session_string']) as app:
-        	await app.update_profile(bio=random.choice(config.bio))
-        	logging.info('Profile description updated!')
-        	
-    except Exception as e:
-        logging.error(e)
-                
+@app.on_message(filters.text & filters.private)
+async def echo(client, message):
+  if message.chat.type == 'private':
+    if "salam" in message.text:
+      await message.reply("Salam aleykum " + message.from_user.mention)
+      
 
-asyncio.run(main())
+app.run()
